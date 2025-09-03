@@ -10,8 +10,9 @@ return i;
         return -1;
     }
     public static void main(String[] args) {
-        int numbers[] = {1,2,3,4,5,6,7,87,9};
+        int numbers[] = {1,2,3,4,5,6,7,87,9,10};
         int key = 10;
-        System.out.println("");
+         int index =linearsearch(numbers, key);
+        System.out.println(index);
     }
 }
